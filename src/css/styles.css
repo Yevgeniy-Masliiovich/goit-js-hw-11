@@ -1,6 +1,4 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-
-@import url('./timer.css');
-@import url('./snackbar.css');
+@import url('./main.css');

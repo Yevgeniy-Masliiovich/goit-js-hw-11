@@ -32,8 +32,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-input,
-textarea {
-  padding: 0;
-}
