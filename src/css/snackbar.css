@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  color: #2e2f42;
+}
+
+.form [name='delay'] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 8px;
+}
+
+.form [type='radio'] {
+  width: 16px;
+  height: 16px;
+}
+
+fieldset {
+  display: flex;
+  gap: 48px;
+  padding: 24px 48px 8px 48px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.create-notification-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: inherit;
+  color: #fff;
+  margin-top: 24px;
+}

@@ -1,0 +1,77 @@
+.input-wraper {
+  display: flex;
+  gap: 8px;
+}
+
+.input-datetime-picker {
+  display: flex;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: inherit;
+  width: 272px;
+}
+
+.start-timer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 75px;
+  height: 40px;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: inherit;
+  background: #4e75ff;
+  color: #fff;
+  transition:
+    background 250ms ease-in-out,
+    color 250ms ease-in-out;
+}
+
+.start-timer-btn:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.start-timer-btn:not([disabled]):hover,
+.start-timer-btn:not([disabled]):focus {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+  color: #2e2f42;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.icon-error-octagon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/error-octagon.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
